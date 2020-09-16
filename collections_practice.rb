@@ -31,8 +31,8 @@ end
 
 def find_a(array)
   a = []
-  array.starts_with?("a")
-  array
+  a << array.starts_with?("a")
+  a
 end
 
 def sum_array(array)
