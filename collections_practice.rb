@@ -30,7 +30,8 @@ end
 
 
 def find_a(array)
-  array.detect 
+  array.starts_with?("a")
+  array
 end
 
 def sum_array(array)
