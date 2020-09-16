@@ -31,7 +31,10 @@ end
 
 def find_a(array)
   a = []
-  a << array.starts_with?("a")
+  array.each do |x| 
+    x.starts_with?("a")
+    a << x
+  end
   a
 end
 
