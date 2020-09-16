@@ -45,7 +45,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |e , index|
-    next if e == feet
+    next if e == "feet"
     e + "s"
   end
 end
