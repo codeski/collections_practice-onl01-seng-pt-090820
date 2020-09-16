@@ -30,6 +30,7 @@ end
 
 
 def find_a(array)
+  a = []
   array.starts_with?("a")
   array
 end
