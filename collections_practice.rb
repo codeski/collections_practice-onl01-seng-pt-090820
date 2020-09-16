@@ -34,7 +34,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = array{|x| x.length}
+  array{|x| x.length} = sum
   sum
 end
 
