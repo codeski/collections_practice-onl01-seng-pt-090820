@@ -41,7 +41,6 @@ end
 
 def sum_array(array)
   sum = array{|x| x.length}
-  sum
 end
 
 def add_s
