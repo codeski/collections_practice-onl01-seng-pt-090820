@@ -31,12 +31,10 @@ end
 
 def find_a(array)
   a = []
-  array.each do |x| 
+  array.collect do |x| 
     if x.start_with?("a")
-      a << x 
     end
   end
-  a
 end
 
 def sum_array(array)
